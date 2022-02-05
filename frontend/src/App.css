@@ -1,0 +1,82 @@
+* {
+  margin: 0px;
+  font-family: 'Poppins', sans-serif;
+}
+
+:root {
+  --dark-background-color: #1a1a1a;
+  --light-background-color: #f5f5f5;
+  --white-color: #fff;
+  --black-color: #000;
+  --grey-color: #2d3035;
+  --light-grey-color: #3e3c41;
+  --grey-hover-color: #212022;
+  --light-blue-color: #626ee3;
+  --light-green-color: #4cd090;
+  --light-button-color: #8c6dfe;
+  --grey-text-color: #1c1c24;
+  --grey-text-color1: #3d3d44;
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  color: white;
+  background-color: var(--dark-background-color);
+}
+
+.sidebar {
+  flex: 2;
+  min-width: 180px;
+  border-right: 1px solid var(--grey-color);
+  position: sticky;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  color: var(--white-color);
+  flex: 10;
+  background-color: var(--dark-background-color);
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--grey-hover-color);
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background: var(--grey-color);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--light-grey-color);
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                                        supported by Chrome, Edge, Opera and Firefox */
+}

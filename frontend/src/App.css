@@ -38,7 +38,7 @@
 }
 
 .main {
-  min-width: 1050px;
+  min-width: 900px;
   display: flex;
   flex-direction: column;
   color: var(--white-color);

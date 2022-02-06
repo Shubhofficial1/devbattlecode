@@ -26,7 +26,7 @@
   background-color: none;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 1000px) {
   .menu_tabs {
     padding: 10px 5px 10px 0px;
   }

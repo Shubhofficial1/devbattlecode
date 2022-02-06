@@ -29,7 +29,7 @@
 }
 
 .header_input {
-  min-width: 220px;
+  width: 250px;
   border: none;
   outline: none;
   background-color: var(--grey-hover-color);
@@ -39,6 +39,8 @@
   font-size: 12px;
   font-weight: 300;
   caret-color: var(--light-grey-color);
+  /* border: 1px solid white; */
+  transition: all ease-in-out 0.2s;
 }
 
 .header_button {
@@ -88,12 +90,14 @@
   .header_bellicon {
     display: none;
   }
+
+  .header_input {
+    width: 180px;
+    transform: scaleX(1);
+  }
 }
 
 @media only screen and (max-width: 700px) {
-  .header_input {
-    min-width: 120px;
-  }
 }
 
 @media only screen and (max-width: 500px) {
@@ -102,7 +106,7 @@
   }
 
   .header_input {
-    min-width: 80px;
+    max-width: 150px;
   }
 
   .searchbar {
@@ -110,21 +114,7 @@
   }
 
   .header_profile {
-    margin-right: 0px;
+    margin-right: 10px;
     margin-left: 0px;
   }
 }
-/* 
-@media only screen and (max-width: 300px) {
-  .header_bars {
-    display: block;
-  }
-
-  .header_input {
-    min-width: 50px;
-  }
-
-  .searchbar {
-    margin-right: 0px;
-  }
-} */

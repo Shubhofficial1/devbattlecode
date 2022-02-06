@@ -43,6 +43,28 @@ const courses = [
     authorimage:
       'https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50',
   },
+  {
+    name: 'Zero To Hero in Flutter',
+    description:
+      'Fun,interative and real life project based learning react course Fun,interative and real life project based learning react course ',
+    type: 'Mobile App Development',
+    image:
+      'https://cdn.pixabay.com/photo/2021/08/11/16/06/mountain-6538890_1280.jpg',
+    author: 'Ryan Dhungel',
+    authorimage:
+      'https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50',
+  },
+  {
+    name: 'Zero To Hero in Flutter',
+    description:
+      'Fun,interative and real life project based learning react course Fun,interative and real life project based learning react course ',
+    type: 'Mobile App Development',
+    image:
+      'https://cdn.pixabay.com/photo/2021/08/11/16/06/mountain-6538890_1280.jpg',
+    author: 'Ryan Dhungel',
+    authorimage:
+      'https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50',
+  },
 ]
 
 export default courses

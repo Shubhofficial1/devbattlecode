@@ -30,12 +30,12 @@ const Header = () => {
     <div className='header'>
       <div className='header_left'>
         <i className='fas fa-bars fa-lg header_bars'></i>
-        <form className='searchbar'>
+        {/* <form className='searchbar'>
           <input className='header_input' placeholder='Search Courses'></input>
           <button type='submit' className='header_button'>
             <i className='fas fa-search header_searchicon'></i>
           </button>
-        </form>
+        </form> */}
       </div>
       <div className='header_right'>
         <i class='fas fa-lg fa-bell header_bellicon'> </i>

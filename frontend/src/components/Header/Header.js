@@ -8,6 +8,7 @@ const Header = () => {
     backgroundColor: '#212022',
     border: 'none',
     marginTop: '15px',
+    marginLeft: '-8px',
     borderRadius: '5px',
   }
 

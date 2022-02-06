@@ -1,12 +1,11 @@
 .logo {
-  width: 100%;
+  width: 95%;
   height: 60px;
   display: flex;
   align-items: center;
   cursor: pointer;
   font-size: 14px;
   font-weight: 400;
-  /* border: 1px solid white; */
 }
 
 .icon {

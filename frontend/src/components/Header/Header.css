@@ -29,7 +29,7 @@
 }
 
 .header_input {
-  min-width: 220px;
+  min-width: 150px;
   border: none;
   outline: none;
   background-color: var(--grey-hover-color);

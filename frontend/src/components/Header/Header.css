@@ -5,13 +5,11 @@
   justify-content: space-between;
   padding: 20px 0px;
   border-bottom: 1px solid var(--grey-color);
-  /* border: 1px solid white; */
 }
 
 .header_left {
   display: flex;
   align-items: center;
-  /* border: 1px solid white; */
 }
 
 .header_bars {
@@ -39,7 +37,7 @@
   font-size: 12px;
   font-weight: 300;
   caret-color: var(--light-grey-color);
-  /* border: 1px solid white; */
+  text-transform: lowercase;
   transition: all ease-in-out 0.2s;
 }
 
@@ -62,7 +60,6 @@
 .header_right {
   display: flex;
   align-items: center;
-  /* border: 1px solid white; */
 }
 
 .header_bellicon {

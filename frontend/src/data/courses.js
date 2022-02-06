@@ -1,5 +1,6 @@
 const courses = [
   {
+    id: 1,
     name: 'Zero To Hero in React',
     description:
       'Fun,interative and real life project based learning react course Fun,interative and real life project based learning react course',
@@ -11,6 +12,7 @@ const courses = [
       'https://lh3.googleusercontent.com/ogw/ADea4I5xrSx0_Usj6HVCWhPlea6t6YcTk17o2V70hyxPxg=s192-c-mo',
   },
   {
+    id: 2,
     name: 'Zero To Hero in Node JS',
     description:
       'Fun,interative and real life project based learning react course Fun,interative and real life project based learning react course',
@@ -22,6 +24,7 @@ const courses = [
       'https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50',
   },
   {
+    id: 3,
     name: 'Zero To Hero in Mongodb',
     description:
       'Fun,interative and real life project based learning react course Fun,interative and real life project based learning react course',
@@ -33,28 +36,7 @@ const courses = [
       'https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50',
   },
   {
-    name: 'Zero To Hero in Flutter',
-    description:
-      'Fun,interative and real life project based learning react course Fun,interative and real life project based learning react course ',
-    type: 'Mobile App Development',
-    image:
-      'https://cdn.pixabay.com/photo/2021/08/11/16/06/mountain-6538890_1280.jpg',
-    author: 'Ryan Dhungel',
-    authorimage:
-      'https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50',
-  },
-  {
-    name: 'Zero To Hero in Flutter',
-    description:
-      'Fun,interative and real life project based learning react course Fun,interative and real life project based learning react course ',
-    type: 'Mobile App Development',
-    image:
-      'https://cdn.pixabay.com/photo/2021/08/11/16/06/mountain-6538890_1280.jpg',
-    author: 'Ryan Dhungel',
-    authorimage:
-      'https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50',
-  },
-  {
+    id: 4,
     name: 'Zero To Hero in Flutter',
     description:
       'Fun,interative and real life project based learning react course Fun,interative and real life project based learning react course ',

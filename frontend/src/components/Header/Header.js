@@ -1,9 +1,13 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Header.css'
 import { Menu, MenuItem } from '@szhsin/react-menu'
 import '@szhsin/react-menu/dist/core.css'
+import Modal from '../Modal/Modal'
 
 const Header = () => {
+  const [input, setInput] = useState('')
+  const [show, setShow] = useState(false)
+
   const menuStyles = {
     backgroundColor: '#212022',
     border: 'none',
@@ -32,14 +36,36 @@ const Header = () => {
       <div className='header_left'>
         <i className='fas fa-bars fa-lg header_bars'></i>
         <div className='searchbar'>
-          <input className='header_input' placeholder='Search Courses'></input>
-          <button type='submit' className='header_button'>
+          <input
+            value={input}
+            onChange={(e) => {
+              setInput(e.target.value)
+              setShow(true)
+            }}
+            className='header_input'
+            placeholder='Search Courses '
+            spellCheck='false'
+          ></input>
+          <button
+            disabled={!input}
+            onClick={() => {
+              setShow(true)
+            }}
+            className='header_button'
+          >
             <i className='fas fa-search header_searchicon'></i>
           </button>
+          <Modal
+            onClose={() => {
+              setShow(false)
+            }}
+            show={show}
+            input={input}
+          />
         </div>
       </div>
       <div className='header_right'>
-        <i class='fas fa-lg fa-bell header_bellicon'> </i>
+        <i className='fas fa-lg fa-bell header_bellicon'> </i>
 
         <Menu
           menuStyles={menuStyles}

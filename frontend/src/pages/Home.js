@@ -9,33 +9,9 @@ const Home = () => {
       <h3 className='course_toptext'>Latest Courses</h3>
       <div className='course_container'>
         {courses.map((course) => (
-          <Course course={course} />
+          <Course key={course.id} course={course} />
         ))}
       </div>
-
-      {/* <h3 className='course_toptext'>Latest Courses</h3>
-
-      <div className='course_container'>
-        {courses.map((course) => (
-          <Course course={course} />
-        ))}
-      </div>
-
-      <h3 className='course_toptext'>Latest Courses</h3>
-
-      <div className='course_container'>
-        {courses.map((course) => (
-          <Course course={course} />
-        ))}
-      </div>
-
-      <h3 className='course_toptext'>Latest Courses</h3>
-
-      <div className='course_container'>
-        {courses.map((course) => (
-          <Course course={course} />
-        ))}
-      </div> */}
     </div>
   )
 }

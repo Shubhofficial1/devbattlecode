@@ -13,8 +13,8 @@ const Sidebar = () => {
         <i className='fas fa-dove icon'></i> Devbatttle
       </h1>
       <div className='menu'>
-        {sidebarDataTop.map((item) => (
-          <Link className='link' to={`${item.path}`}>
+        {sidebarDataTop.map((item, index) => (
+          <Link key={index} className='link' to={`${item.path}`}>
             <MenuItem item={item} />
           </Link>
         ))}
@@ -25,8 +25,8 @@ const Sidebar = () => {
       </div>
 
       <div className='menu'>
-        {sidebarDataMiddle.map((item) => (
-          <Link className='link' to={`${item.path}`}>
+        {sidebarDataMiddle.map((item, index) => (
+          <Link key={index} className='link' to={`${item.path}`}>
             <MenuItem item={item} />
           </Link>
         ))}

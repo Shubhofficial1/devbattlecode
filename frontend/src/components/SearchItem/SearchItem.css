@@ -1,0 +1,41 @@
+.searchitem-container {
+  height: 60px;
+  display: flex;
+  margin: 10px 5px;
+  cursor: pointer;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+}
+
+.searchitem-container:hover {
+  background-color: #2b2b30;
+}
+
+.searchitem-image {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin: 0px 20px;
+}
+
+.searchitem-detail {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  /* border: 1px solid white; */
+}
+
+.searchitem-name {
+  font-size: 12px;
+  font-weight: 400;
+  color: #999999;
+}
+
+.searchitem-author {
+  font-size: 10px;
+  font-weight: 800;
+  color: var(--light-grey-color);
+  text-transform: capitalize;
+}

@@ -109,3 +109,17 @@
     margin-right: 0px;
   }
 }
+
+@media only screen and (max-width: 300px) {
+  .header_bars {
+    display: block;
+  }
+
+  .header_input {
+    min-width: 50px;
+  }
+
+  .searchbar {
+    margin-right: 0px;
+  }
+}

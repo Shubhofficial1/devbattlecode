@@ -40,8 +40,6 @@ const Header = () => {
       <div className='header_right'>
         <i class='fas fa-lg fa-bell header_bellicon'> </i>
 
-        {/* <button className='header_button1'>Start Learning</button> */}
-
         <Menu
           menuStyles={menuStyles}
           menuButton={
